@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Заголовок -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Тест диалоговых окон"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- 1. Простой диалог -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_simple_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Простой AlertDialog"
+            android:layout_marginBottom="8dp"
+            app:icon="@android:drawable/ic_dialog_info"
+            app:iconGravity="start"/>
+
+        <!-- 2. Диалог с выбором -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_selection_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Диалог выбора"
+            android:layout_marginBottom="8dp"
+            app:icon="@android:drawable/ic_menu_agenda"
+            app:iconGravity="start"/>
+
+        <!-- 3. Диалог с вводом текста -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_input_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Диалог с полем ввода"
+            android:layout_marginBottom="8dp"
+            app:icon="@android:drawable/ic_menu_edit"
+            app:iconGravity="start"/>
+
+        <!-- 4. Диалог подтверждения -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_confirm_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Диалог подтверждения"
+            android:layout_marginBottom="8dp"
+            app:icon="@android:drawable/ic_dialog_alert"
+            app:iconGravity="start"/>
+
+        <!-- 5. Прогресс-диалог -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_progress_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Прогресс-диалог"
+            android:layout_marginBottom="8dp"
+            app:icon="@android:drawable/ic_menu_upload"
+            app:iconGravity="start"/>
+
+        <!-- 6. DatePickerDialog -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_date_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Выбор даты"
+            android:layout_marginBottom="8dp"
+            app:icon="@android:drawable/ic_menu_month"
+            app:iconGravity="start"/>
+
+        <!-- 7. BottomSheetDialog -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_bottom_sheet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7. BottomSheet (снизу)"
+            android:layout_marginBottom="8dp"
+            app:icon="@android:drawable/ic_menu_view"
+            app:iconGravity="start"/>
+
+        <!-- 8. Кастомный DialogFragment -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_custom_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8. Кастомный DialogFragment"
+            android:layout_marginBottom="24dp"
+            app:icon="@android:drawable/ic_menu_set_as"
+            app:iconGravity="start"/>
+
+        <!-- Область для отображения результата -->
+        <TextView
+            android:id="@+id/tv_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Здесь будет результат"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:padding="16dp"
+            android:background="@android:color/darker_gray"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+</ScrollView>

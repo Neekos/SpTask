@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray_light">#F5F5F5</color>
+    <color name="gray_medium">#E0E0E0</color>
+    <color name="gray_dark">#757575</color>
+    <color name="error_red">#F44336</color>
+    <color name="success_green">#4CAF50</color>
+        <!-- Основные цвета -->
+        <color name="grey">#757575</color>
+        <color name="light_grey">#E0E0E0</color>
+
+        <!-- Синяя гамма -->
+        <color name="blue">#2196F3</color>
+        <color name="blue_light">#E3F2FD</color>
+        <color name="blue_dark">#1976D2</color>
+
+        <!-- Зеленая гамма (для легких задач) -->
+        <color name="green">#2E7D32</color>
+        <color name="green_light">#E8F5E9</color>
+
+        <!-- Желтая гамма (для средних задач) -->
+        <color name="orange">#F57C00</color>
+        <color name="orange_light">#FFF3E0</color>
+
+        <!-- Красная гамма (для сложных задач) -->
+        <color name="red">#C62828</color>
+        <color name="red_light">#FFEBEE</color>
+
+        <!-- Серые оттенки для бейджей -->
+        <color name="grey_badge">#9E9E9E</color>
+        <color name="grey_light">#F5F5F5</color>
+</resources>

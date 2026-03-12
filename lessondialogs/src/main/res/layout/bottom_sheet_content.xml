@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Выберите действие"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btn_option1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Добавить в избранное"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btn_option2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Поделиться"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btn_option3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Скопировать ссылку"
+        android:layout_marginBottom="16dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Отмена"
+        android:textColor="@android:color/holo_red_dark"/>
+
+</LinearLayout>

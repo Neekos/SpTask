@@ -1,0 +1,22 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/nav_home">
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.fragmentlessons.HomeFragment"
+        android:label="Photos" />
+    <fragment
+        android:id="@+id/nav_photos"
+        android:name="com.example.fragmentlessons.PhotosFragment"
+        android:label="Photos" />
+
+    <fragment
+        android:id="@+id/nav_audio"
+        android:name="com.example.fragmentlessons.AudioFragment"
+        android:label="Audio" />
+
+    <fragment
+        android:id="@+id/nav_video"
+        android:name="com.example.fragmentlessons.VideoFragment"
+        android:label="Video" />
+</navigation>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_task_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="8dp"
+    android:background="@drawable/widget_background"
+    android:layout_marginBottom="4dp">
+
+<ImageView
+android:id="@+id/widget_task_status"
+android:layout_width="20dp"
+android:layout_height="20dp"
+android:src="@drawable/ic_unchecked"
+android:layout_marginEnd="8dp"/>
+
+<TextView
+android:id="@+id/widget_task_title"
+android:layout_width="0dp"
+android:layout_height="wrap_content"
+android:layout_weight="1"
+android:text="Задача"
+android:textSize="14sp"
+android:textColor="@color/black"
+android:maxLines="1"
+android:ellipsize="end"/>
+
+<TextView
+android:id="@+id/widget_task_level"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="EASY"
+android:textSize="10sp"
+android:textColor="@color/white"
+android:paddingHorizontal="8dp"
+android:paddingVertical="2dp"
+android:background="@drawable/level_badge_easy"/>
+    </LinearLayout>

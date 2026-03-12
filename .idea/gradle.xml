@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="CHOOSE_PER_TEST" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#GRADLE_LOCAL_JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/arrayadapterproject" />
+            <option value="$PROJECT_DIR$/authactadap" />
+            <option value="$PROJECT_DIR$/botnavmenu" />
+            <option value="$PROJECT_DIR$/fragmentlesson1" />
+            <option value="$PROJECT_DIR$/fragmentlessons" />
+            <option value="$PROJECT_DIR$/imagesmodul" />
+            <option value="$PROJECT_DIR$/lessondialogs" />
+            <option value="$PROJECT_DIR$/mybdsqlite" />
+            <option value="$PROJECT_DIR$/permissonlessons" />
+            <option value="$PROJECT_DIR$/pz4" />
+            <option value="$PROJECT_DIR$/pz4nointernet" />
+            <option value="$PROJECT_DIR$/spprojectsqlitetask" />
+            <option value="$PROJECT_DIR$/zachet2" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

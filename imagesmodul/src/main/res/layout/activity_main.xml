@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:id="@+id/main"
+    tools:context=".MainActivity">
+
+    <!-- Заголовок -->
+    <TextView
+        android:id="@+id/textT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="🖼️ Работа с изображениями"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- Кнопки управления изображениями -->
+    <Button
+        android:id="@+id/btnFromResources"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🔄 Загрузить из ресурсов"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnNextImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="➡️ Следующее изображение"
+        android:layout_marginTop="4dp" />
+
+    <!-- Кнопки разрешений и сохранения -->
+    <Button
+        android:id="@+id/btnRequestPermissions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🔐 Запросить разрешения"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#FF9800" />
+
+    <Button
+        android:id="@+id/btnSaveToDownloads"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="💾 Сохранить в Downloads"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="#4CAF50" />
+
+    <!-- Новая кнопка загрузки -->
+    <Button
+        android:id="@+id/btnLoadFromDownloads"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📥 Загрузить из Downloads"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="#9C27B0" />
+
+    <Button
+        android:id="@+id/btnShowInExplorer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📁 Как скачать файлы"
+        android:layout_marginTop="4dp" />
+    <Button
+        android:id="@+id/btnLoadFromInternet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🌐 Загрузить из интернета"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="#FF5722" />
+    <Button
+        android:id="@+id/btnCheckStorage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📊 Обновить информацию"
+        android:layout_marginTop="4dp" />
+    <Button
+        android:id="@+id/btnAssets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Загрузить из Assets"
+        android:layout_marginTop="4dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="209dp"
+        android:layout_marginTop="16dp"
+        android:background="#e0e0e0"
+        android:contentDescription="Просмотр изображения"
+        android:scaleType="centerCrop" />
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:visibility="gone" />
+    <!-- Информация о хранилище -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!-- Информация о хранилище -->
+        <TextView
+            android:id="@+id/tvStorageInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:padding="12dp"
+            android:background="#ffffff"
+            android:textSize="12sp"
+            android:text="Загрузка информации..."
+            android:lineSpacingExtra="2dp" />
+    </ScrollView>
+
+
+</LinearLayout>

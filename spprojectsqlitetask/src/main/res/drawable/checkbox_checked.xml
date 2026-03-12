@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Синий круг -->
+    <item>
+        <shape android:shape="oval">
+            <size
+                android:width="26dp"
+                android:height="26dp" />
+            <solid android:color="@color/green" />
+        </shape>
+    </item>
+
+    <!-- Белая галочка -->
+    <item
+        android:width="18dp"
+        android:height="18dp"
+        android:drawable="@drawable/ic_check_white"
+        android:gravity="center" />
+</layer-list>

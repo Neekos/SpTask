@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SpTask</string>
+    <string name="title_name">Список задач</string>
+    <string name="text_time">Вт, 9 Дек, 2026г</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="back_button">Назад</string>
+</resources>

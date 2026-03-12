@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="192dp"
+    android:height="192dp"
+    android:viewportWidth="192"
+    android:viewportHeight="192">
+
+    <!-- Тень -->
+    <path
+        android:fillColor="#33000000"
+        android:pathData="M104,104m-82,0a82,82 0,1 1,164 0a82,82 0,1 1,-164 0"/>
+
+    <!-- Фоновый круг -->
+    <path
+        android:fillColor="@color/blue"
+        android:pathData="M96,96m-80,0a80,80 0,1 1,160 0a80,80 0,1 1,-160 0"/>
+
+    <!-- Буква S -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M66,66 L86,66 Q96,66 101,71 Q106,76 106,84 Q106,92 101,97 Q96,102 86,102 L76,102 L76,118 L88,118 Q106,118 117,107 Q128,96 128,84 Q128,72 117,61 Q106,50 88,50 L66,50 L66,66 Z"/>
+
+    <!-- Буква P -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M108,50 L108,118 L124,118 L124,94 L140,94 Q152,94 160,86 Q168,78 168,64 Q168,50 160,42 Q152,34 140,34 L108,34 L108,50 Z M124,50 L140,50 Q146,50 150,54 Q154,58 154,64 Q154,70 150,74 Q146,78 140,78 L124,78 L124,50 Z"/>
+</vector>
