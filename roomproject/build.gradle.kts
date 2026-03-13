@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    id("kotlin-kapt")
 }
 
 android {
@@ -33,9 +34,33 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
 dependencies {
+// Room components
+    val room_version = "2.8.4"
+    // Основная библиотека Room
+    implementation("androidx.room:room-runtime:$room_version")
+
+    // Для Kotlin используем KSP (быстрее чем kapt)
+    kapt("androidx.room:room-compiler:$room_version")
+    
+    // Поддержка Kotlin корутин (suspend функции в DAO)
+    implementation("androidx.room:room-ktx:$room_version")
+
+    // Поддерка Flow // LiveData
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:${room_version}")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0")
+
+    // Для использования с Activity/Fragment
+    implementation("androidx.activity:activity-ktx:1.8.0")
+
+    // Coroutines
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+    implementation("androidx.fragment:fragment-ktx:1.6.0")
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
